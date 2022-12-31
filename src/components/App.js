@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className='App'>
         <Routes>
-        <Route path='codeeditor' element={<Home />} />
+        <Route path='' element={<Home />} />
           <Route path='intro' element={<Intro />} />
           <Route path='css' element={<Cas />} />
           <Route path='js' element={<Jas />} />
